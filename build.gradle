@@ -1,6 +1,7 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.8.21'
     id 'application'
+    id 'com.jakewharton.mosaic' version '0.7.0'
 }
 
 group = 'com.github.yohannestz'
@@ -11,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.jakewharton.mosaic:mosaic-gradle-plugin:0.7.0'
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
 }
 
