@@ -17,4 +17,14 @@ class PixelGrid(val width: Int, val height: Int) {
     fun getImage(): Array<Array<Color>> {
         return pixels
     }
+
+    fun printArray() {
+        for (y in pixels.indices) {
+            for (x in pixels.indices) {
+                val color = pixels[x][y]
+                print(color)
+            }
+            println(",")
+        }
+    }
 }

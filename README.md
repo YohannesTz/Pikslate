@@ -19,6 +19,15 @@ do
 make sure to zoom out as much as possible in your terminal. also, program is tested with only .png, .jpg and
 .jpeg files. (see ``/images`` folder for samples)
 
+# Video rendering support (Experimental ⚠️)
+rendering video is supported now experimentally. you will need ``ffmpeg`` installed and setup correctly.
+it creates a folder called ``/frames`` in the current folder, so you might need to clean it up if you already have one.
+200 width and 100 height is recommended.
+
+```bash
+./Pikslate --url=/path/to/your/video/location/samplevideo.mp4 --width=200 --height=100
+```
+
 # Preview
 pepe_love.png
 ![Preview|100x100](./preview/preview_1.png)
