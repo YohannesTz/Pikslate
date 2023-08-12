@@ -22,7 +22,7 @@ make sure to zoom out as much as possible in your terminal. also, the program is
 # Video rendering support (Experimental ⚠️)
 rendering video is supported now experimentally. you will need ``ffmpeg`` installed and set up correctly.
 it creates a folder called ``/frames`` in the current folder, so you might need to clean it up if you already have one.
-using 200 for the width and 100 height is recommended.
+using 200 for the width and 100 height is recommended. see the video preview [here](https://youtu.be/k_dENDhWErA)
 
 ```bash
 ./Pikslate --url=/path/to/your/video/location/samplevideo.mp4 --width=200 --height=100
